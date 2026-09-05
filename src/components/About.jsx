@@ -1,3 +1,5 @@
+
+
 function About() {
   return (
     <section className="about h-auto py-20 bg-(--inverse-primary)">
@@ -36,10 +38,11 @@ function About() {
               {/* Ingredientes tradicionales */}
               <div className="flex items-start gap-4 p-5 bg-white border border-[#2C1E1E]/10 rounded-lg hover:border-green-700 transition-colors">
                 <div>
+                     
                   <h3 className="text-xl font-semibold text-[#261818] mb-2">
                     Ingredientes tradicionales
                   </h3>
-
+                  
                   <p className="text-base text-gray-600">
                     Seleccionados diariamente para garantizar frescura y
                     calidad.
