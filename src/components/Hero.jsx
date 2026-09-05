@@ -1,6 +1,6 @@
 function Hero() {
   return (
-    <section className="hero min-h-screen bg-(--bg) flex items-center justify-center p-8">
+    <section className="hero min-h-dvh bg-(--bg) flex items-center justify-center p-8">
       <div className="hero-content flex gap-8 items-center justify-between">
         <div className="text-content flex flex-col gap-4">
           <h1 className="text-7xl font-bold flex flex-col text-left ml-2 gap-2">
