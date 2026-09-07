@@ -2,6 +2,7 @@ import './index.css'
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import About from './components/About'
+import Menu from './components/Menu'
 
 function App() {
 
@@ -13,6 +14,8 @@ function App() {
     </Hero>
     <About>
     </About>
+    <Menu>
+    </Menu>
 
     </>
   )

@@ -7,7 +7,7 @@ function Navbar() {
             <h1 className="text-3xl text-(--primary) font-bold ml-4">Tacos Melendez</h1>
             </div>
             <ul className = "text-xl list-none flex space-x-4">
-                <li clasName = "hover:text-(--primary)"><a href="/">Home</a></li>
+                <li className = "hover:text-(--primary)"><a href="/">Home</a></li>
                 <li className = "hover:text-(--primary)"><a href="/">Menú</a></li>
                 <li className = "hover:text-(--primary)"><a href="/about">Nosotros</a></li>
                 <li className = "hover:text-(--primary)"><a href="/contact">Ubicación</a></li>

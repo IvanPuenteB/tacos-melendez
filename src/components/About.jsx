@@ -1,13 +1,12 @@
 
-
 function About() {
   return (
-    <section className="about h-auto py-20 bg-(--inverse-primary)">
+      <section className="about h-auto py-20 bg-(--inverse-primary)">
+       
       <div className="container mx-auto px-6 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
-
           {/* Imagen */}
-          <div className="w-full h-[500px] lg:h-[700px]">
+          <div className="w-full h-125 lg:h-150 overflow-hidden rounded-lg">
             <img
               src="../src/assets/images/about.webp"
               alt="Tacos Meléndez"
@@ -38,7 +37,7 @@ function About() {
               {/* Ingredientes tradicionales */}
               <div className="flex items-start gap-4 p-5 bg-white border border-[#2C1E1E]/10 rounded-lg hover:border-green-700 transition-colors">
                 <div>
-                     
+                  
                   <h3 className="text-xl font-semibold text-[#261818] mb-2">
                     Ingredientes tradicionales
                   </h3>
