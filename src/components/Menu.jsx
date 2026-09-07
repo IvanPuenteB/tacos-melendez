@@ -1,4 +1,6 @@
 import MenuCard from './MenuCard'
+import DrinkCard from './DrinkCard'
+import {bebidas} from '../data/menu'
 import {tacos} from '../data/menu'
 
 function Menu() {
@@ -13,7 +15,20 @@ function Menu() {
                 ))}
             </div>
 
-            
+            <div className="mt-20">
+          <h3 className="mb-8 text-2xl font-bold text-[#261818]">
+            Bebidas para acompañar
+          </h3>
+
+          <div className="grid grid-cols-1 gap-6 md:grid-cols-3">
+            {bebidas.map((bebida) => (
+              <DrinkCard
+                key={bebida.id}
+                bebida={bebida}
+              />
+            ))}
+          </div>
+        </div>
         </section>
     );
 }
