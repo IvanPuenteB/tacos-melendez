@@ -3,6 +3,7 @@ import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import About from './components/About'
 import Menu from './components/Menu'
+import Featured from './components/Featured'
 
 function App() {
 
@@ -16,6 +17,8 @@ function App() {
     </About>
     <Menu>
     </Menu>
+    <Featured>
+    </Featured>
 
     </>
   )
