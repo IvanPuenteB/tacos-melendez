@@ -21,6 +21,9 @@
   --inverse-primary: #fff0ef;
   --secondary: #096c4b;
   --on-primary: #ffffff;
+  --inverse-primary-low: #ffb3b1;
+  --surface-container-low: #fff0ef;
+  --on-surface-variant: #5c403f;
   box-sizing: border-box;
 
   

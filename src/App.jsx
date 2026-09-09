@@ -4,6 +4,7 @@ import Hero from './components/Hero'
 import About from './components/About'
 import Menu from './components/Menu'
 import Featured from './components/Featured'
+import Location from './components/Location'
 
 function App() {
 
@@ -19,6 +20,8 @@ function App() {
     </Menu>
     <Featured>
     </Featured>
+    <Location>
+    </Location>
 
     </>
   )

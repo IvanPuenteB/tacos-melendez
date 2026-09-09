@@ -6,7 +6,7 @@ function Featured() {
       id="inicio"
       className="mx-auto max-w-7xl px-6 pt-28 pb-12 md:px-8"
     >
-      <div className="relative flex h-[520px] w-full items-end overflow-hidden border-2 border-[#2C1E1E] shadow-[8px_8px_0px_#2C1E1E] md:h-[600px]">
+      <div className="relative flex h-full w-full items-start overflow-hidden border-2 border-[#2C1E1E] shadow-[8px_8px_0px_#2C1E1E] md:h-[600px]">
 
         {/* Imagen de fondo */}
         <img
@@ -16,7 +16,7 @@ function Featured() {
         />
 
         {/* Overlay */}
-        <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-black/85 via-black/35 to-black/10" />
+        <div className="pointer-events-none absolute inset-0 bg-linear-to-br from-black/85 via-black/35 to-black/10" />
 
         {/* Contenido */}
         <div className="relative z-20 flex w-full flex-col items-start gap-4 p-6 md:p-12">
@@ -47,7 +47,7 @@ function Featured() {
           {/* Título */}
           <h1 className="text-4xl font-extrabold leading-tight tracking-tight text-white drop-shadow-md md:text-5xl lg:text-6xl">
             Tacos{" "}
-            <span className="text-yellow-400">
+            <span className="text-(--inverse-primary-low)">
               Meléndez
             </span>
           </h1>
