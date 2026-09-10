@@ -6,7 +6,7 @@ import {tacos} from '../data/menu'
 
 function Menu() {
     return (
-        <section className="menu" id="menu">
+        <section className="menu max-w-7xl mx-auto" id="menu">
             <div><p className="text-lg text-(--secondary)">Especialidades</p></div>
             <h2 className="text-4xl font-bold text-center mb-8">Nuestro Menú</h2>
 

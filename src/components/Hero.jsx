@@ -1,16 +1,16 @@
 function Hero() {
   return (
-    <section className="hero min-h-dvh bg-(--bg) flex items-center justify-center p-8">
+    <section className="hero max-w-7xl mx-auto min-h-dvh bg-(--bg) flex items-center justify-center p-8">
       <div className="hero-content flex gap-8 items-center justify-between">
-        <div className="text-content flex flex-col gap-4">
-          <h1 className="text-7xl font-bold flex flex-col text-left ml-2 gap-2">
+        <div className="text-content flex flex-col gap-12">
+          <h1 className="text-8xl font-bold flex flex-col text-left ml-2 gap-2">
             <span className="block ">Tacos</span>
             <span className="block text-(--primary)">Meléndez</span>
           </h1>
-          <h2 className="text-3xl font-semibold text-left ml-2 border-l-4 border-green-700 pl-4">
+          <h2 className="text-4xl font-semibold text-left ml-2 border-l-4 border-green-700 pl-4">
             Hechos con amor para ti
           </h2>
-          <p className="text-left ml-2 text-lg text-balance">
+          <p className="text-left ml-2 text-xl/8 text-balance">
             El sabor de los guisos caseros, servido en cada taco. Una tradición
             que se disfruta en cada mordida, preparada con ingredientes frescos
             y recetas de la familia.

@@ -1,6 +1,6 @@
 function Footer() {
   return (
-    <footer className="bg-surface-container dark:bg-surface-container-low border-t border-on-surface/5 dark:border-on-surface-variant/10 w-full py-12 px-8 md:px-margin-desktop">
+    <footer className="bg-surface-container dark:bg-surface-container-low border-t border-on-surface/5 dark:border-on-surface-variant/10 max-w-7xl mx-auto py-12 px-8 md:px-margin-desktop">
       <div className="flex flex-col md:flex-row justify-between items-center gap-unit max-w-container-max mx-auto text-center md:text-left">
         <div className="flex items-center gap-4 mb-6 md:mb-0">
           <img

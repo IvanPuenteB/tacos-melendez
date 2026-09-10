@@ -1,7 +1,7 @@
 
 function Navbar() {
     return(
-        <nav className="bg-(--bg)  p-4 flex justify-between items-center">
+        <nav className="bg-(--bg) max-w-7xl mx-auto  p-4 flex justify-between items-center">
             <div className="flex items-center">
             <a href="/"><img src="../src/assets/logo.jpg" alt="Tacos Melendez" className="h-10 w-10" /></a>
             <h1 className="text-3xl text-(--primary) font-bold ml-4">Tacos Melendez</h1>
