@@ -6,6 +6,7 @@ import Menu from './components/Menu'
 import Featured from './components/Featured'
 import Location from './components/Location'
 import Cta from './components/CTA'
+import Footer from './components/Footer'
 
 function App() {
 
@@ -25,6 +26,8 @@ function App() {
     </Location>
     <Cta>
     </Cta>
+    <Footer>
+    </Footer>
     </>
   )
 }
