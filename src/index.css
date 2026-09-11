@@ -44,3 +44,19 @@ body {
   /* border-inline: 1px solid var(--border); */
   min-height: 100svh;
 } 
+
+
+.dark {
+  --bg: #211817;
+  --text: #fff5f3;
+  --primary: #ff6675;
+  --border: #2c2c2c;
+  --primary-container: #fd6f7e;
+  --on-primary-fixed: #fc5868;
+  --inverse-primary: #252121;
+  --secondary: #10b47e;
+  --on-primary: #050505;
+  --inverse-primary-low: #fa4842a1;
+  --surface-container-low: #313131;
+  --on-surface-variant: #855d5b;
+}

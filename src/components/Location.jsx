@@ -12,7 +12,7 @@ function Location() {
               Ubicación
             </span>
             <h2 className="text-4xl md:text-5xl font-bold text-on-background">Ven a visitarnos</h2>
-            <p className="text-lg text-(--on-surface-variant) text-balance">
+            <p className="text-lg text-(--text) text-balance">
               Te esperamos con una sonrisa y las salsas listas. Encuéntranos fácilmente usando el mapa y ven a disfrutar del verdadero sabor casero.
             </p>
             <div className="mt-4">
