@@ -3,7 +3,7 @@
 function Featured() {
   return (
     <section
-      id="inicio"
+      id="featured"
       className="mx-auto max-w-7xl px-6 pt-28 pb-12 md:px-8"
     >
       <div className="relative flex h-full w-full items-start overflow-hidden border-2 border-[#2C1E1E] shadow-[8px_8px_0px_#2C1E1E] md:h-[600px]">

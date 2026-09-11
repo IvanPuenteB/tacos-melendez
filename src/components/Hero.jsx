@@ -40,7 +40,7 @@ function Hero() {
 
         {/* Imagen */}
         <div className="flex-1">
-          <div className="group relative mt-12 aspect-[5/5] w-full max-w-2xl perspective-1000 lg:mt-0">
+          <div className="group relative mt-12 aspect-5/5 w-full max-w-2xl perspective-1000 lg:mt-0">
 
             {/* Tarjeta trasera */}
             <div className="absolute inset-0 rotate-3 rounded-lg border border-[#2C1E1E]/20 bg-(--surface-container-low) transition-transform duration-700 ease-out group-hover:rotate-1"></div>

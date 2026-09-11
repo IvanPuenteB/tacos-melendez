@@ -1,6 +1,6 @@
 function Cta() {
   return (
-    <section className="py-24 bg-(--primary) text-(--on-primary) relative overflow-hidden">
+    <section id="cta" className="py-24 bg-(--primary) text-(--on-primary) relative overflow-hidden">
       <div className="absolute inset-0 opacity-10"></div>
       <div className="relative z-10 max-w-container-max mx-auto px-margin-mobile text-center flex flex-col items-center gap-8">
         <h2 className="font-bold text-6xl text-(--on-primary) max-w-3xl leading-tight">

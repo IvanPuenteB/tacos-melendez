@@ -1,6 +1,6 @@
 function Location() {
   return (
-    <section id="ubicacion" className="py-24 bg-(--surface-container-low) border-t border-[#2C1E1E]/10">
+    <section id="location" className="py-24 bg-(--surface-container-low) border-t border-[#2C1E1E]/10">
       <div className="max-w-7xl mx-auto px-6 md:px-12">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
           

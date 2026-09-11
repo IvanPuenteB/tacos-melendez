@@ -1,7 +1,7 @@
 
 function About() {
   return (
-      <section className="about h-auto py-20 bg-(--inverse-primary)">
+      <section id="about" className="about h-auto py-20 bg-(--inverse-primary)">
        
       <div className="container max-w-7xl mx-auto px-6 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
