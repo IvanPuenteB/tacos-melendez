@@ -24,7 +24,7 @@ function MenuCard({ taco }) {
           </span>
         </div>
 
-        <p className="mt-3 text-gray-600">
+        <p className="mt-3 text-gray-600 text-left">
           {taco.description}
         </p>
 

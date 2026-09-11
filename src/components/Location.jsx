@@ -1,3 +1,4 @@
+import { MapPin } from "lucide-react";
 function Location() {
   return (
     <section id="location" className="py-24 bg-(--surface-container-low) border-t border-[#2C1E1E]/10">
@@ -22,7 +23,7 @@ function Location() {
                 className="bg-(--primary-container) text-(--on-primary) px-8 py-4 font-bold hover:bg-opacity-70 transition-colors inline-flex items-center gap-3 border-2 border-[#2C1E1E] shadow-[4px_4px_0px_#2C1E1E] active:translate-y-1 active:translate-x-1 active:shadow-none"
               >
            
-                <span>Abrir en Google Maps</span>
+                <span>Abrir en Google Maps</span><MapPin/>
               </a>
             </div>
           </div>

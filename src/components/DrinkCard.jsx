@@ -1,3 +1,4 @@
+
 function DrinkCard({ bebida }) {
   return (
     <article className="flex items-center gap-4 rounded-lg bg-white p-5 shadow-sm transition-all duration-300 hover:-translate-y-1 hover:shadow-md">
