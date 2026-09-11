@@ -19,8 +19,9 @@ function Location() {
                 href="https://maps.app.goo.gl/L3UyAhDud97PSgSV7" 
                 target="_blank" 
                 rel="noopener noreferrer"
-                className="bg-(--primary-container) text-(--on-primary) px-8 py-4 font-semibold hover:bg-opacity-90 transition-colors inline-flex items-center gap-3 border-2 border-[#2C1E1E] shadow-[4px_4px_0px_#2C1E1E] active:translate-y-1 active:translate-x-1 active:shadow-none"
+                className="bg-(--primary-container) text-(--on-primary) px-8 py-4 font-bold hover:bg-opacity-70 transition-colors inline-flex items-center gap-3 border-2 border-[#2C1E1E] shadow-[4px_4px_0px_#2C1E1E] active:translate-y-1 active:translate-x-1 active:shadow-none"
               >
+           
                 <span>Abrir en Google Maps</span>
               </a>
             </div>
