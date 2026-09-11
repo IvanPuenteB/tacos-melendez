@@ -1,7 +1,9 @@
 
+
 function About() {
   return (
-      <section id="about" className="about h-auto py-20 bg-(--inverse-primary)">
+      <section id="about" className="about h-auto max-h-svh py-20 bg-(--inverse-primary)">
+    
        
       <div className="container max-w-7xl mx-auto px-6 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
@@ -21,6 +23,7 @@ function About() {
               <h2 className="text-4xl lg:text-5xl font-bold text-left mb-6">
                 El sabor de casa, en cada mordida
               </h2>
+
 
               <p className="text-lg leading-8 text-left text-balance">
                 En Tacos Meléndez, no hacemos comida rápida. Preparamos guisos

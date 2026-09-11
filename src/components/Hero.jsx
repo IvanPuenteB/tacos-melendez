@@ -1,3 +1,7 @@
+import { ArrowRight, MapPin } from "lucide-react";
+
+
+
 function Hero() {
   return (
     <section className="hero mx-auto flex min-h-dvh max-w-7xl items-center justify-center bg-(--bg) p-8">
@@ -26,13 +30,14 @@ function Hero() {
               className="bg-(--primary) hover:bg-(--primary-container) text-(--on-primary) px-8 py-4 font-semibold hover:opacity-90 transition-colors inline-flex items-center gap-3 border-2 border-[#2C1E1E] shadow-[4px_4px_0px_#2C1E1E] active:translate-y-1 active:translate-x-1 active:shadow-none"
             >
               Ver nuestro menú
-            <span>EJMOJI</span>
+            <span><ArrowRight /></span>
             </a>
 
             <a
               href="/ubicacion"
-              className="inline-flex items-center gap-2 rounded-none border-2 border-[#2C1E1E] bg-transparent px-8 py-3 font-label-lg text-label-lg transition-colors hover:bg-surface-container"
+              className="inline-flex items-center gap-2 rounded-none border-2 border-[#2C1E1E] bg-transparent px-8 py-3 font-label-lg text-label-lg transition-colors hover:bg-surface-container font-semibold"
             >
+              <span><MapPin /></span>
               Cómo llegar
             </a>
           </div>
