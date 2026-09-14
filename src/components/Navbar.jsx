@@ -25,7 +25,7 @@ function Navbar() {
           <div className="flex items-center">
             <a href="/">
               <img
-                src="../src/assets/logo.jpg"
+                src="../public/assets/images/logo.jpg"
                 alt="Tacos Melendez"
                 className="h-10 w-10 rounded-full"
               />

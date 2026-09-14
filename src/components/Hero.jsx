@@ -111,7 +111,7 @@ function Hero() {
               "
             >
               <img
-                src="../src/assets/images/hero.webp"
+                src="../public/assets/images/hero.webp"
                 alt="Tacos"
                 className="h-full w-full object-cover object-center"
               />

@@ -82,7 +82,7 @@ function About() {
           {/* Imagen */}
           <div className="order-2 h-[500px] w-full overflow-hidden rounded-lg sm:h-[600px] lg:order-1 lg:h-[700px]">
             <img
-              src="../src/assets/images/about.webp"
+              src="../public/assets/images/about.webp"
               alt="Tacos Meléndez"
               className="h-full w-full rounded-lg object-cover object-center"
             />
