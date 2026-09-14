@@ -6,28 +6,19 @@ function About() {
       id="about"
       className="about bg-(--inverse-primary) py-20 lg:py-24"
     >
-      <div className="max-w-7xl mx-auto px-6 lg:px-8">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
-
-          {/* Imagen */}
-          <div className="w-full h-[600px] lg:h-[700px] overflow-hidden rounded-lg">
-            <img
-              src="../src/assets/images/about.webp"
-              alt="Tacos Meléndez"
-              className="w-full h-full object-cover object-center rounded-lg"
-            />
-          </div>
+      <div className="mx-auto max-w-7xl px-6 lg:px-8">
+        <div className="grid grid-cols-1 items-center gap-12 lg:grid-cols-2 lg:gap-16">
 
           {/* Contenido */}
-          <div className="flex flex-col justify-center gap-8">
+          <div className="order-1 flex flex-col justify-center gap-8 lg:order-2">
 
             {/* Texto */}
             <div>
-              <h2 className="text-4xl lg:text-5xl font-bold text-left mb-6 leading-tight">
+              <h2 className="mb-6 text-left text-4xl font-bold leading-tight lg:text-5xl">
                 El sabor de casa, en cada mordida
               </h2>
 
-              <p className="text-lg lg:text-xl leading-8 text-left text-balance">
+              <p className="text-left text-lg leading-8 text-balance lg:text-xl">
                 En Tacos Meléndez, no hacemos comida rápida. Preparamos guisos
                 con el tiempo, la paciencia y el cariño que merecen. Cada
                 receta es un homenaje a las cocinas de nuestras abuelas,
@@ -40,13 +31,14 @@ function About() {
             <div className="flex flex-col gap-4">
 
               {/* Ingredientes tradicionales */}
-              <div className="flex items-center gap-4 p-5 bg-white border border-[#2C1E1E]/10 rounded-lg hover:border-green-700 transition-colors">
-                <div className="p-3 bg-(--secondary) rounded-lg text-secondary shrink-0">
-                  <Leaf className="w-6 h-6 fill-green-100" />
+              <div className="flex items-center gap-4 rounded-lg border border-[#2C1E1E]/10 bg-white p-5 transition-colors hover:border-green-700">
+
+                <div className="shrink-0 rounded-lg bg-(--secondary) p-3 text-secondary">
+                  <Leaf className="h-6 w-6 fill-green-100" />
                 </div>
 
                 <div className="text-left">
-                  <h3 className="text-xl font-semibold text-[#261818] mb-2">
+                  <h3 className="mb-2 text-xl font-semibold text-[#261818]">
                     Ingredientes tradicionales
                   </h3>
 
@@ -55,16 +47,18 @@ function About() {
                     calidad.
                   </p>
                 </div>
+
               </div>
 
               {/* Hechos con cariño */}
-              <div className="flex items-center gap-4 p-5 bg-white border border-[#2C1E1E]/10 rounded-lg hover:border-red-700 transition-colors">
-                <div className="p-3 bg-(--primary-container) rounded-lg text-(--on-primary) shrink-0">
+              <div className="flex items-center gap-4 rounded-lg border border-[#2C1E1E]/10 bg-white p-5 transition-colors hover:border-red-700">
+
+                <div className="shrink-0 rounded-lg bg-(--primary-container) p-3 text-(--on-primary)">
                   <Heart className="fill-amber-50" />
                 </div>
 
                 <div className="text-left">
-                  <h3 className="text-xl font-semibold text-[#261818] mb-2">
+                  <h3 className="mb-2 text-xl font-semibold text-[#261818]">
                     Hechos con cariño
                   </h3>
 
@@ -72,16 +66,18 @@ function About() {
                     Preparados con dedicación y pasión por la tradición.
                   </p>
                 </div>
+
               </div>
 
               {/* Sabor casero */}
-              <div className="flex items-center gap-4 p-5 bg-white border border-[#2C1E1E]/10 rounded-lg hover:border-yellow-600 transition-colors">
-                <div className="p-3 bg-amber-300 rounded-lg text-secondary shrink-0">
+              <div className="flex items-center gap-4 rounded-lg border border-[#2C1E1E]/10 bg-white p-5 transition-colors hover:border-yellow-600">
+
+                <div className="shrink-0 rounded-lg bg-amber-300 p-3 text-secondary">
                   <Utensils className="fill-amber-300" />
                 </div>
 
                 <div className="text-left">
-                  <h3 className="text-xl font-semibold text-[#261818] mb-2">
+                  <h3 className="mb-2 text-xl font-semibold text-[#261818]">
                     Sabor casero
                   </h3>
 
@@ -89,9 +85,21 @@ function About() {
                     El auténtico sabor de las cocinas familiares.
                   </p>
                 </div>
+
               </div>
 
             </div>
+          </div>
+
+          {/* Imagen */}
+          <div className="order-2 h-[500px] w-full overflow-hidden rounded-lg sm:h-[600px] lg:order-1 lg:h-[700px]">
+
+            <img
+              src="../src/assets/images/about.webp"
+              alt="Tacos Meléndez"
+              className="h-full w-full rounded-lg object-cover object-center"
+            />
+
           </div>
 
         </div>
