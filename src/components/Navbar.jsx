@@ -32,7 +32,7 @@ function Navbar() {
             </a>
 
             <h1 className="text-2xl lg:text-3xl text-(--primary) font-bold ml-3">
-              <span className="text-(--text)">Tacos</span> Melendez
+              <span className="text-(--text)">Tacos</span> Meléndez
             </h1>
           </div>
 
