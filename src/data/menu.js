@@ -35,7 +35,7 @@ export const tacos = [
   {
     id: 5,
     name: "Taco de Tripita",
-    description: "Tripita de res guisada.",
+    description: "Tripita de res guisada de Carniceria Mendez Jr.",
     price: "25 c/u",
     image: "/assets/images/taco-de-tripita.webp",
     supplierLogo: "/assets/images/logo-mendez.webp"
