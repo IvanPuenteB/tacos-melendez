@@ -10,7 +10,7 @@ function Featured() {
 
         {/* Imagen de fondo */}
         <img
-          src="../public/assets/images/featured.webp"
+          src="/assets/images/featured.webp"
           alt="Familia y equipo fundador de Tacos Meléndez"
           className="absolute inset-0 h-full w-full object-cover object-[center_-50px]"
         />
