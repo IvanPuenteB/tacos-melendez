@@ -43,7 +43,7 @@ function Hero() {
 
             {/* Cómo llegar */}
             <a
-              href="/ubicacion"
+              href="#ubicacion"
               className="inline-flex w-full items-center justify-center gap-2 border-2 border-(--text) bg-transparent px-6 py-4 font-semibold transition-colors hover:bg-(--surface-container) sm:w-auto sm:px-8"
             >
               <MapPin className="h-5 w-5" />
