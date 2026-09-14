@@ -29,7 +29,7 @@ function Menu() {
         <div className="inline-flex items-center gap-2 rounded-full bg-surface-container-high px-5 py-2 text-sm font-medium text-on-surface-variant shadow-sm border border-outline-variant/50">
           <Utensils className="h-4 w-4 text-primary" />
           <span>
-            Todos los tacos pueden pedirse en tortilla de <strong className="text-[#261818] font-bold">maíz</strong> o <strong className="text-[#261818] font-bold">harina</strong>.
+            Todos los tacos pueden pedirse en tortilla de <strong className="text-(--text) font-bold">maíz</strong> o <strong className="text-(--text) font-bold">harina</strong>.
           </span>
         </div>
         
@@ -47,7 +47,7 @@ function Menu() {
       {/* Bebidas */}
       <div className="mt-16 sm:mt-20">
 
-        <h3 className="mb-6 text-2xl font-bold text-[#261818] sm:text-3xl">
+        <h3 className="mb-6 text-2xl font-bold text-[--text] sm:text-3xl">
           Bebidas para acompañar
         </h3>
 

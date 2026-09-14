@@ -13,13 +13,7 @@ function Cta() {
           >
             <span className="">Ver menú completo</span>
           </a>
-          <a
-            className="bg-transparent text-(--on-primary) border-2 border-(--on-primary) px-8 py-4 rounded-none font-label-lg text-label-lg font-bold hover:bg-(--on-primary)/10 transition-colors inline-flex items-center gap-2"
-            href="#ubicacion"
-          >
-            <span className="">Cómo llegar</span>
-          </a>
-        </div>
+              </div>
       </div>
     </section>
   );

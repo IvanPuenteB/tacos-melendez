@@ -34,7 +34,7 @@ function Featured() {
             </div>
 
             {/* 100% Caseros */}
-            <div className="hidden items-center gap-1.5 rounded-full border border-black/30 bg-red-700 px-3.5 py-1.5 text-white shadow-md sm:inline-flex">
+            <div className="hidden items-center gap-1.5 rounded-full border border-black/30 bg-(--primary) px-3.5 py-1.5 text-white shadow-md sm:inline-flex">
               {/* <BadgeCheck size={16} fill="currentColor" /> */}
 
               <span className="text-xs font-semibold">
@@ -47,7 +47,7 @@ function Featured() {
           {/* Título */}
           <h1 className="text-4xl font-extrabold leading-tight tracking-tight text-white drop-shadow-md md:text-5xl lg:text-6xl">
             Tacos{" "}
-            <span className="text-(--inverse-primary-low)">
+            <span className="text-(--primary)">
               Meléndez
             </span>
           </h1>
@@ -63,7 +63,7 @@ function Featured() {
             {/* Ver menú */}
             <a
               href="#menu"
-              className="inline-flex items-center gap-2 bg-red-700 px-8 py-3.5 text-sm font-bold uppercase tracking-wide text-white shadow-[5px_5px_0px_#2C1E1E] transition-all hover:bg-red-800 active:translate-x-1 active:translate-y-1 active:shadow-none"
+              className="inline-flex items-center gap-2 bg-(--primary) px-8 py-3.5 text-sm font-bold uppercase tracking-wide text-white shadow-[5px_5px_0px_#2C1E1E] transition-all hover:bg-red-800 active:translate-x-1 active:translate-y-1 active:shadow-none"
             >
               <span>Ver menú</span>
               {/* <ArrowRight size={17} /> */}

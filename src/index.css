@@ -23,6 +23,7 @@
   --inverse-primary-low: #ffb3b1;
   --surface-container-low: #fff0ef;
   --on-surface-variant: #5c403f;
+  --shadowdos: 8px 8px 0px #2C1E1E;
   box-sizing: border-box;
   /* font-family: 'Work Sans'; */
   
@@ -59,4 +60,5 @@ body {
   --inverse-primary-low: #fa4842a1;
   --surface-container-low: #313131;
   --on-surface-variant: #855d5b;
+  --shadowdos: 8px 8px 0px #f1e9e9;
 }

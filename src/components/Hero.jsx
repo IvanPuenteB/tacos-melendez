@@ -35,7 +35,7 @@ function Hero() {
             {/* Ver menú */}
             <a
               href="#menu"
-              className="inline-flex w-full items-center justify-center gap-3 border-2 border-[#2C1E1E] bg-(--primary) px-6 py-4 font-semibold text-(--on-primary) shadow-[4px_4px_0px_#2C1E1E] transition-colors hover:bg-(--primary-container) hover:opacity-90 active:translate-x-1 active:translate-y-1 active:shadow-none sm:w-auto sm:px-8"
+              className="inline-flex w-full items-center justify-center gap-3 border-2 border-(--primary) bg-(--primary) px-6 py-4 font-semibold text-(--on-primary) shadow-[4px_4px_0px_#2C1E1E] transition-colors hover:bg-(--primary-container) hover:opacity-90 active:translate-x-1 active:translate-y-1 active:shadow-none sm:w-auto sm:px-8"
             >
               Ver nuestro menú
               <ArrowRight className="h-5 w-5" />
@@ -44,7 +44,7 @@ function Hero() {
             {/* Cómo llegar */}
             <a
               href="/ubicacion"
-              className="inline-flex w-full items-center justify-center gap-2 border-2 border-[#2C1E1E] bg-transparent px-6 py-4 font-semibold transition-colors hover:bg-(--surface-container) sm:w-auto sm:px-8"
+              className="inline-flex w-full items-center justify-center gap-2 border-2 border-(--text) bg-transparent px-6 py-4 font-semibold transition-colors hover:bg-(--surface-container) sm:w-auto sm:px-8"
             >
               <MapPin className="h-5 w-5" />
               Cómo llegar

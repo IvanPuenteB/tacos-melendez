@@ -15,12 +15,12 @@ function Location() {
             <p className="text-lg text-(--text) text-balance">
               Te esperamos con una sonrisa y las salsas listas. Encuéntranos fácilmente usando el mapa y ven a disfrutar del verdadero sabor casero.
             </p>
-            <div className="mt-4">
+            <div className="mt-4 ">
               <a 
                 href="https://maps.app.goo.gl/L3UyAhDud97PSgSV7" 
                 target="_blank" 
                 rel="noopener noreferrer"
-                className="bg-(--primary-container) text-(--on-primary) px-8 py-4 font-bold hover:bg-opacity-70 transition-colors inline-flex items-center gap-3 border-2 border-[#2C1E1E] shadow-[4px_4px_0px_#2C1E1E] active:translate-y-1 active:translate-x-1 active:shadow-none"
+                className="bg-(--primary-container) text-(--on-primary) px-8 py-4 font-bold hover:bg-(--primary-container) hover:opacity-90 transition-colors inline-flex items-center gap-3 border-2 border-[#2C1E1E] shadow-[4px_4px_0px_#2C1E1E] active:translate-y-1 active:translate-x-1 active:shadow-none"
               >
            
                 <span>Abrir en Google Maps</span><MapPin/>
@@ -29,13 +29,13 @@ function Location() {
           </div>
 
           {/* Columna Derecha: Mapa (Iframe) */}
-          <div className="lg:col-span-7 bg-(--surface-container-low) p-4 border border-[#2C1E1E] shadow-[8px_8px_0px_#2C1E1E] h-[400px] md:h-[500px] relative group w-full">
+          <div className="lg:col-span-7 bg-(--surface-container-low) p-4 border border-(--text) shadow-(--shadowdos) h-[400px] md:h-[500px] relative group w-full">
             
             {/* Esquinas decorativas */}
-            <div className="absolute top-4 left-4 w-4 h-4 border-t-2 border-l-2 border-primary z-20 pointer-events-none"></div>
-            <div className="absolute top-4 right-4 w-4 h-4 border-t-2 border-r-2 border-primary z-20 pointer-events-none"></div>
-            <div className="absolute bottom-4 left-4 w-4 h-4 border-b-2 border-l-2 border-primary z-20 pointer-events-none"></div>
-            <div className="absolute bottom-4 right-4 w-4 h-4 border-b-2 border-r-2 border-primary z-20 pointer-events-none"></div>
+            <div className="absolute top-4 left-4 w-4 h-4 border-t-2 border-l-2 border-(--primary) z-20 pointer-events-none"></div>
+            <div className="absolute top-4 right-4 w-4 h-4 border-t-2 border-r-2 border-(--primary) z-20 pointer-events-none"></div>
+            <div className="absolute bottom-4 left-4 w-4 h-4 border-b-2 border-l-2 border-(--primary) z-20 pointer-events-none"></div>
+            <div className="absolute bottom-4 right-4 w-4 h-4 border-b-2 border-r-2 border-(--primary) z-20 pointer-events-none"></div>
 
             {/* Iframe de Google Maps */}
             <iframe

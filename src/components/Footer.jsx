@@ -1,3 +1,5 @@
+import { Phone } from "lucide-react";
+
 function Footer() {
   return (
     <footer className="bg-surface-container dark:bg-surface-container-low border-t border-on-surface/5 dark:border-on-surface-variant/10 max-w-7xl mx-auto py-12 px-8 md:px-margin-desktop">
@@ -13,16 +15,11 @@ function Footer() {
           </span>
         </div>
         <nav className="flex gap-6 mb-6 md:mb-0">
-          <a
-            className="font-label-sm text-label-sm text-on-surface-variant dark:text-outline-variant hover:text-primary dark:hover:text-primary-fixed-dim transition-colors inline-flex items-center gap-1"
-            href="#menu"
-          >
-            <span class="">Volver al menú</span>
-          </a>
+           <p className="flex gap-2"><Phone className="h-5 w-5"/>Tel:  8127712791</p>
         </nav>
         <div class="flex items-center gap-3 mb-6 md:mb-0">
           <a
-            href="https://facebook.com"
+            href="https://www.facebook.com/profile.php?id=61593622067152"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="Facebook de Tacos Meléndez"
@@ -34,7 +31,7 @@ function Footer() {
             <span class="">Facebook</span>
           </a>
           <a
-            href="https://tiktok.com"
+            href="https://www.tiktok.com/@zednelem4?is_from_webapp=1&sender_device=pc"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="TikTok de Tacos Meléndez"
