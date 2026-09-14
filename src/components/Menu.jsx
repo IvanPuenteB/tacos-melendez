@@ -1,5 +1,6 @@
 import MenuCard from "./MenuCard";
 import DrinkCard from "./DrinkCard";
+import { Utensils } from "lucide-react";
 import { bebidas, tacos } from "../data/menu";
 
 function Menu() {
@@ -20,10 +21,18 @@ function Menu() {
           <span className="h-[2px] w-6 bg-(--secondary) sm:w-8"></span>
         </p>
 
-        <h2 className="text-center text-4xl font-bold sm:text-5xl">
+        <h2 className="text-center mb-8 text-4xl font-bold sm:text-5xl">
           Nuestro Menú
         </h2>
 
+        
+        <div className="inline-flex items-center gap-2 rounded-full bg-surface-container-high px-5 py-2 text-sm font-medium text-on-surface-variant shadow-sm border border-outline-variant/50">
+          <Utensils className="h-4 w-4 text-primary" />
+          <span>
+            Todos los tacos pueden pedirse en tortilla de <strong className="text-[#261818] font-bold">maíz</strong> o <strong className="text-[#261818] font-bold">harina</strong>.
+          </span>
+        </div>
+        
       </div>
 
 
